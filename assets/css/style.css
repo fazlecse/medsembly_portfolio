@@ -32,7 +32,7 @@ i{
 }
 a:hover{
     color: #EA1C2D !important;
-    transition: 0.5s;
+    transition: all 0.5s ease-in-out;
 }
 h2{
     font-size: 46px;
