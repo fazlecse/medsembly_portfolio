@@ -79,7 +79,9 @@ img{
     border-radius: 10px;
 }
 /* Start of header */
-
+.navbar-toggler {
+	background: #EA1C2D;
+}
 .header_button{
     width: 205px;
     height: 54px;
