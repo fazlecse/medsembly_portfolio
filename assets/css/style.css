@@ -90,8 +90,10 @@ img{
     display: flex;
     justify-content: center;
 }
-.header_button:hover{
-    color: #6D6E71;
+.header_button:hover {
+	color: #fff !important;
+	background: #EA1C2D;
+	border-color: #fff;
 }
 /* End of header */
 
