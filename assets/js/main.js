@@ -1,0 +1,81 @@
+
+// help_area_carousel
+$('.help_area_carousel').owlCarousel({
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    autoplay:true,
+    nav:true,
+    loop:true,
+    margin:20,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false,
+            dots:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:false,
+            loop:true          
+        }
+    }
+})
+
+// student_love_carousel
+$('.student_love_carousel').owlCarousel({
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    autoplay:true,
+    nav:true,
+    loop:true,
+    margin:20,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false,
+            dots:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:false,
+            loop:true
+        }
+    }
+})
+
+// joim_medsembly_area_carousel
+$('.joim_medsembly_area_carousel').owlCarousel({
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    autoplay:true,
+    nav:true,
+    loop:true,
+    margin:20,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false,
+            dots:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:false,
+            loop:true
+        }
+    }
+})
